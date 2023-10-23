@@ -1,0 +1,24 @@
+.basket {
+  border: 2px solid var(--black);
+}
+.deleteButtons {
+  background-color: var(--secondary-color);
+  border: 1px solid var(--primary-color);
+}
+.checkoutButton {
+  background-color: #03cb03;
+  border: 1px solid #00ff00;
+}
+.basket input[type="number"]::-webkit-inner-spin-button,
+.basket input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.customNumberInput input:focus {
+  outline: none !important;
+}
+
+.customNumberInput button:focus {
+  outline: none !important;
+}
